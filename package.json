@@ -1,9 +1,12 @@
 {
   "name": "realtime-agent-02",
   "version": "1.0.0",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx tsx src/tests/test.ts",
+    "start": "npx tsx src/server.ts",
+    "dev": "npx tsx src/server.ts"
   },
   "keywords": [],
   "author": "",
@@ -15,5 +18,8 @@
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3",
     "ws": "^8.18.3"
+  },
+  "devDependencies": {
+    "tsx": "^4.21.0"
   }
 }
