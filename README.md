@@ -1,6 +1,6 @@
 # Mini Realtime Agent
 
-![Tests](https://github.com/USERNAME/REPO/actions/workflows/ci.yml/badge.svg)
+![Tests](![CI](https://github.com/Edris9/realtime-agent-CLI-/actions/workflows/ci.yml/badge.svg))
 
 En WebSocket-server med hallucinationsskydd som streamar AI-svar token för token och verifierar alla siffror mot en kunskapsbas.
 
