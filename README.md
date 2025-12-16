@@ -1,6 +1,6 @@
 # Mini Realtime Agent
 
-![Tests](![CI](https://github.com/Edris9/realtime-agent-CLI-/actions/workflows/ci.yml/badge.svg))
+![Tests](https://github.com/Edris9/realtime-agent-CLI-/actions/workflows/ci.yml/badge.svg)
 
 En WebSocket-server med hallucinationsskydd som streamar AI-svar token för token och verifierar alla siffror mot en kunskapsbas.
 
@@ -311,3 +311,4 @@ Projektet har 14 tester som verifierar:
 ## Licens
 
 ISC
+.github/workflows/ci.yml
